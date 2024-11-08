@@ -47,3 +47,31 @@
   grid-column: 3/4;
 }
 
+.areas-nomeadas{
+grid-template-areas:
+'cabecalho cabecalho'
+'menu conteudo'
+'rodape rodape'
+;
+grid-template-columns: 1fr 2fr;
+grid-template-rows: auto
+
+}
+
+.cabecalho{
+ grid-area: cabecalho;
+}
+
+.menu{
+  grid-area: menu;
+}
+
+.conteudo{
+  grid-area: conteudo;
+}
+
+.rodape{
+  grid-area: rodape;
+
+}
+
