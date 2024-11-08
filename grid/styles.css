@@ -26,3 +26,24 @@
 .auto-fit{
   grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
 }
+
+.sobreposicao{
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:100px 100px;
+  position: relative;
+}
+
+.item1{
+  grid-column: 1/4;
+}
+.item2{
+  grid-column: 2/3;
+}
+
+.item3{
+  grid-column: 2/4;
+}
+.item4{
+  grid-column: 3/4;
+}
+
