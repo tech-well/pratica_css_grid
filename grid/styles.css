@@ -18,3 +18,11 @@
   padding: 20px;
   
 }
+
+.repeat-minmax{
+  grid-template-columns: repeat(4,minmax(150px, 2fr));
+}
+
+.auto-fit{
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}
