@@ -75,3 +75,13 @@ grid-template-rows: auto
 
 }
 
+.grid-aninhado{
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.subgrid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
