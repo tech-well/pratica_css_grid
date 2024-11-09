@@ -85,3 +85,39 @@ grid-template-rows: auto
   gap: 10px;
 }
 
+.layout-pagina{
+  grid-template-areas: 
+  'header header header'
+  'nav main aside'
+  'footer footer footer'
+   ;
+
+   grid-template-columns: 1fr 2fr 1fr;
+   grid-template-rows: auto 1fr auto;
+   height: 500px;
+}
+
+.header{
+  grid-area: header;
+  background-color: brown;
+}
+
+.nav{
+  grid-area: nav;
+  background-color: rgb(77, 47, 47);
+}
+
+.main{
+  grid-area: main;
+  background-color: rgb(45, 28, 28);
+}
+
+.aside{
+  grid-area: aside;
+  background-color: rgb(143, 102, 102);
+}
+
+.footer{
+  grid-area: footer;
+  background-color: rgb(37, 30, 30);
+}
